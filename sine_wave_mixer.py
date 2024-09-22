@@ -26,8 +26,8 @@ mixed_wave = wave1 + wave2
 
 # Plotting
 fig, ax = plt.subplots()
-ax.plot(x, wave1, label=f'A₁sin(ω₁x)', color='blue',linestyle='--')
-ax.plot(x, wave2, label=f'A₂sin(ω₂x)', color='red',linestyle='--')
+ax.plot(x, wave1, label=f'A₁sin(ω₁x)', color='blue',linestyle='--',linewidth=0.5)
+ax.plot(x, wave2, label=f'A₂sin(ω₂x)', color='red',linestyle='--',linewidth=0.5)
 ax.plot(x, mixed_wave, label=f'Mixed Wave', color='k', linestyle='-')
 
 ax.set_xlabel("x")
